@@ -1,0 +1,17 @@
+@charset "utf-8";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+button{
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+}
+button:hover{
+    background-color: white;
+    color: ;
+}

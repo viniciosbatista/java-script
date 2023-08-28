@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>antes e depois</h1>
+    <input type="button" id="bt" value="antecessor e sucessor">
+
+
+    <script>
+        var botao = document.getElementById('bt')
+        botao.addEventListener('click',clicou)
+            function clicou(){
+                var antes = Number(prompt('digite um numero interio qualquer!'))
+                var a = Number(antes - 1) 
+                var d = Number(antes + 1)
+                alert(`antes de ${antes}, temos o numero ${a} depois de ${antes}, temos o numero ${d}`)
+        
+            }
+
+
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Conversor de Medidas </h1>
+    <input type="button" value="converter" id="bt">
+    <div id="res"></div>
+
+    <script>
+        var botao = document.getElementById('bt')
+        var resultado = document.getElementById('res')
+        botao.addEventListener('click',clicou)
+            function clicou(){
+                
+                var valor = Number(prompt('digite uma distancia em medidas(m)'))
+                var km = Number(valor / 1000)
+                var hm = Number(valor / 1000 )
+                var dam = Number(valor / 1000)
+                var dm = Number(valor / 10 )
+                var cm= Number(valor / 100)
+                var mm = Number(valor / 1000 )
+            }
+
+    </script>
+</body>
+</html>

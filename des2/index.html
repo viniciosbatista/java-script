@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Desafio de boas-vindas</title>
+</head>
+<body>
+    <h1>Boas-vindas</h1>
+    <input id="bt" type="button" value="inicie o desafio">
+
+
+    <script>
+        var botao = document.getElementById('bt')
+        botao.addEventListener('click',clicou)
+        
+            function clicou(){
+                var nome = prompt('qual e seu nome?')
+                var idade = prompt(`ola ${nome}! quantos anos voce tem?`)
+                alert(`acabei de conhecer ${nome},que tem ${idade} anos de idade`) 
+            }
+    </script>
+</body>
+</html>

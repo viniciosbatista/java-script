@@ -5,13 +5,13 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
+    
 }
-button{
-    width: 100px;
-    height: 100px;
+input{
     margin-top: 20px;
+    padding: 10px;
 }
-button:hover{
-    background-color: white;
-    color:red;
+input:hover{
+    background-color: red;
+    border: 1px solid;
 }

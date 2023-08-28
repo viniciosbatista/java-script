@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>desafio 1 de java script</title>
+</head>
+<body>
+    <h1>desafio das mensagens</h1>
+    <button id="b1" >botao 1</button>
+    <button id="b2">botao 2</button>
+    <button id="b3">botao 3</button>
+
+
+
+    <script>
+        var botao1 = document.getElementById('b1')
+        var botao2 = document.getElementById('b2')
+        var botao3 = document.getElementById('b3')
+        botao1.addEventListener('click',clicou)
+        botao2.addEventListener('click',clico)
+        botao3.addEventListener('click',clicoul)
+            function clicou(){
+            alert('voce apertou o 1° botão ')
+            botao1.style.background = 'green'
+            }
+            function clico(){
+                alert('voce apertou o 2° botão')
+                botao2.style.background = 'yellow'
+            }
+            function clicoul(){
+                alert('voce apertou o 3° botão')
+                botao3.style.background = 'red'
+            }
+    </script>
+</body>
+</html>

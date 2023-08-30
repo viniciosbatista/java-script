@@ -9,7 +9,7 @@
 <body>
     <h1>Conversor de Medidas </h1>
     <input type="button" value="converter" id="bt">
-    <div id="res"></div>
+    <section id="res">clique no botão a cima para iniciar </section>
 
     <script>
         var botao = document.getElementById('bt')
@@ -18,12 +18,25 @@
             function clicou(){
                 
                 var valor = Number(prompt('digite uma distancia em medidas(m)'))
-                var km = Number(valor / 1000)
-                var hm = Number(valor / 1000 )
-                var dam = Number(valor / 1000)
-                var dm = Number(valor / 10 )
-                var cm= Number(valor / 100)
-                var mm = Number(valor / 1000 )
+                var km = Number(valor/1000)
+                var hm = Number(valor/100 )
+                var dam = Number(valor/10)
+                var dm = Number(valor*10 )
+                var cm= Number(valor*100)
+                var mm = Number(valor*1000 )
+                res.innerHTML = `<h2>A distancia de ${valor.toFixed(2).replace('.',',')} metros, corresponde a....</h2> <br>
+                ${km.toFixed(3)} quilômetros (Km) <br>
+                <br>
+                ${hm.toFixed(3)} hectômetros (Hm)<br>
+                <br>
+                ${dam.toFixed(3)} decâmetros (Dam)<br>
+                <br>
+                ${dm.toFixed(1)} decimetros (dm)<br>
+                <br>
+                ${cm.toFixed(0)} centimetros (cm)<br>
+                <br>
+                ${mm.toFixed(0)} milimetros (mm)`
+              
             }
 
     </script>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>resolvendo Bhaskara</title>
+</head>
+<body>
+    <h1>Resolvendo Bhaskara</h1>
+    <input type="button" value="calcular" id="bt">
+    <section id="res">considerando uma equaçao no formato <strong>ax<sup>2</sup>+ bx + c = 0</strong>,aperte o botão acima para calcular o valor de Δ</section>
+
+
+    <script>
+        var botao = document.getElementById('bt')
+        botao.addEventListener('click',clicou)
+        var resultado = document.getElementById('res')
+            function clicou(){
+                var a = Number(prompt('qual e o valor de a?'))
+                var b = Number(prompt('qual e o valor de b?'))
+                var c = Number(prompt('qual e o valor de c?'))
+                
+            }
+    </script>
+</body>
+</html>

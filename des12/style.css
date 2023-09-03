@@ -1,0 +1,8 @@
+@charset "utf-8";
+input{
+    padding: 10px;
+}
+input:hover{
+    background-color: red;
+    border: 1px solid red;
+}

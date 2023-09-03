@@ -1,0 +1,22 @@
+@charset "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+h1{
+    text-align: center;
+}
+input,section{
+    margin: 20px 0px 0px 20px ;
+}
+input{
+    padding: 10px;
+    cursor: pointer;
+}
+input:hover{
+    background-color: red;
+    border: 1px solid red;
+}

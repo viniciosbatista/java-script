@@ -20,10 +20,15 @@
                 var nome = prompt('qual e o nome do funcionario ')
                 var salario = Number(prompt(`qual e o salario do funcionario ${nome}`))
                 var reajuste = Number(prompt(`o salario do ${nome} vai ser reajustado em qual porcentagem`))
-                resultado.innerHTML = `<h2>${nome} recebeu um aumento salarial!</h2> <br>
-                <p>o salario atual era R$ ${salario}</p> <br>
-                com um aumento de ${reajuste}%, o salario vai aumentar R$ ${} no proximo mes `
+                var total = Number(salario/100)*reajuste
+                var aumento = Number(salario/100)*reajuste
+                var total = Number(salario+aumento)
+                resultado.innerHTML = `<h2>${nome} recebeu um aumento salarial</h2>
+                <p>o salario atual era R$ ${salario}.</p>
+                <p>com um aumento de ${reajuste}%, o salario vai aumentar R$ ${aumento} no proximo mes.</p>
+                <p>e a partir dai,${nome} vai passar a ganhar R$ ${total}</p>`
             }
+            
     </script>
 </body>
 </html>

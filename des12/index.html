@@ -19,8 +19,8 @@
             function clicou(){
                 var anterior = Number(prompt('qual era o preço anterior do produto'))
                 var atual = Number(prompt('qual e o preço atual do produto'))
-                var varia = Number(atual/anterior)
-                resultado.innerHTML = `<h2>analisando os valores informados</h2>
+                var varia = Number(atual-anterior/atual)*100
+                resultado.innerHTML = `<h2>Analisando os valores informados</h2>
                 <p>o produto custava R$ ${anterior.toFixed(2).replace(".",",")} e agora custa R$ ${atual.toFixed(2).replace(".",",")}</p>
         `
                 if(anterior<atual){

@@ -1,4 +1,4 @@
-var velocidade = document.getElementById('vl')
+/*var velocidade = document.getElementById('vl')
 var botao = document.getElementById('bt')
 botao.addEventListener('click',clicou)
 var resultado = document.getElementById('res')
@@ -12,3 +12,5 @@ var resultado = document.getElementById('res')
             }
 
     }
+    */
+  

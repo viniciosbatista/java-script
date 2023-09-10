@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>situaçao do aluno</title>
+</head>
+<body>
+    <h1>situaçao do aluno </h1>
+    <input type="button" id="bt" value="entrar com as notas">
+    <section id="res">clique no botao acima para informar as notas do aluno </section>
+
+
+    <script>
+        var botao = document.getElementById('bt')
+        botao.addEventListener('click',clicou)
+        var resultado = document.getElementById('res')
+
+            function clicou(){
+                var nome = prompt('qual e o nome do aluno?')
+                var nota1 = Number(prompt(`primeira nota de ${nome}`))
+                var nota2 = Number(prompt(`segunda nota de ${nome}`))
+                var media = Number(nota1+nota2)/2
+                if (media < 3 ){
+                    resultado.innerHTML =`<h2>analisando a situaçao de ${nome}</h2><p>com as nota ${nota1} e ${nota2} a <strong>media e ${media.toFixed(2).replace(".",",")}</strong></p>com media abaixo de ${media.toFixed(2).replace(".",",")} o aluno esta <mark>REPROVADO</mark>` 
+                }
+                    if(media > 6){
+                        resultado.innerHTML += `<p>com as nota ${nota1} e ${nota2} a <strong>media e ${media.toFixed(2).replace(".",",")}</strong><p>com a media maior que ${media} o aluno esta em <mark>APROVADO</mark></p>`
+                    }
+                else{
+                    resultado.innerHTML += `<p>com as nota ${nota1} e ${nota2} a <strong>media e ${media.toFixed(2).replace(".",",")} com media entre ${nota1} e ${nota2} o aluno esta em <mark>RECUPERAÇAO</mark>`
+                }
+            }
+    </script>
+</body>
+</html>

@@ -10,24 +10,7 @@
     <p>velocidade do carro <input type="number"id="vl"> Km/h <input type="button" value="verificar" id="bt"></p>
     <section id="res"></section>
 
-    <script>
-        var velocidade = document.getElementById('vl')
-        var botao = document.getElementById('bt')
-        botao.addEventListener('click',clicou)
-        var resultado = document.getElementById('res')
-        function clicou(){
-            var vel = Number(velocidade.value)
-            resultado.innerHTML =`voce estava a <strong>${vel} Km/h</strong><br>` 
-            if(vel>60){
-                resultado.innerHTML += `<p>foi multado</p>`
-            }else{
-                resultado.innerHTML += `parabens continue assim`
-            }
-        }
-        
-
-
-    </script>
+    <script src="externo.js"></script>
 
 </body>
 </html>

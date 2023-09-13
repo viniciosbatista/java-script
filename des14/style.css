@@ -1,0 +1,37 @@
+@charset "utf-8";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: bisque;
+    text-align: center;
+    
+}
+h1{
+    color: white;
+    padding: 20px;
+}
+#quadrado{
+    background-color: white;
+    width: 500px;
+    height: 400px;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px #dfa766;
+    position: relative;
+}
+p{
+    padding: 10px;
+}
+img{
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}

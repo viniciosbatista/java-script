@@ -1,0 +1,31 @@
+@charset "utf-8";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(11, 60, 60);
+}
+h1{
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+#td{
+    margin: auto;
+    display: block;
+    width: 400px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px black;
+    padding: 20px;
+    
+}
+p{
+    padding: 5px;
+}
+img{
+    border-radius: 50%;
+    
+}

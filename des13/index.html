@@ -13,15 +13,15 @@
 
 
     <script>
-        var botao = document.getElementById('bt')
+        let botao = document.getElementById('bt')
         botao.addEventListener('click',clicou)
-        var resultado = document.getElementById('res')
+        let resultado = document.getElementById('res')
 
             function clicou(){
-                var nome = prompt('qual e o nome do aluno?')
-                var nota1 = Number(prompt(`primeira nota de ${nome}`))
-                var nota2 = Number(prompt(`segunda nota de ${nome}`))
-                var media = Number(nota1+nota2)/2
+                let nome = prompt('qual e o nome do aluno?')
+                let nota1 = Number(prompt(`primeira nota de ${nome}`))
+                let nota2 = Number(prompt(`segunda nota de ${nome}`))
+                let media = Number(nota1+nota2)/2
                
                 if(media > 6){
                         resultado.innerHTML = `<h2>Analisando a situaçao de ${nome}</h2>

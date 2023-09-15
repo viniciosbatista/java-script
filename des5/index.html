@@ -12,18 +12,18 @@
     <section id="res">clique no botão a cima para iniciar </section>
 
     <script>
-        var botao = document.getElementById('bt')
-        var resultado = document.getElementById('res')
+        let botao = document.getElementById('bt')
+        let resultado = document.getElementById('res')
         botao.addEventListener('click',clicou)
             function clicou(){
                 
-                var valor = Number(prompt('digite uma distancia em medidas(m)'))
-                var km = Number(valor/1000)
-                var hm = Number(valor/100 )
-                var dam = Number(valor/10)
-                var dm = Number(valor*10 )
-                var cm= Number(valor*100)
-                var mm = Number(valor*1000 )
+                let valor = Number(prompt('digite uma distancia em medidas(m)'))
+                let km = Number(valor/1000)
+                let hm = Number(valor/100 )
+                let dam = Number(valor/10)
+                let dm = Number(valor*10 )
+                let cm= Number(valor*100)
+                let mm = Number(valor*1000 )
                 res.innerHTML = `<h2>A distancia de ${valor.toFixed(2).replace('.',',')} metros, corresponde a....</h2> <br>
                 ${km.toFixed(3)} quilômetros (Km) <br>
                 <br>

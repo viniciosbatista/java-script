@@ -14,14 +14,14 @@
 
 
     <script>
-            var botao = document.getElementById('bt')
-            var resultado = document.getElementById('res')
+            let botao = document.getElementById('bt')
+            let resultado = document.getElementById('res')
             botao.addEventListener('click',clicou)
                 function clicou(){
-                    var produto = prompt('qual produto voce esta comprando')
-                    var preco = Number(prompt(`qual e o preço do ${produto}`))
-                    var desconto = Number(10/100) * preco
-                    var total = Number(preco - desconto )
+                    let produto = prompt('qual produto voce esta comprando')
+                    let preco = Number(prompt(`qual e o preço do ${produto}`))
+                    let desconto = Number(10/100) * preco
+                    let total = Number(preco - desconto )
                     resultado.innerHTML = `<h2>Calculando desconto de 10% para ${produto} </h2> <br>
                     <p>o preço original era R$ ${preco.toFixed(2).replace('.',',')}</p> <br>
                     <p>voce acaba de ganhar R$ ${desconto.toFixed(2).replace('.',',')} de desconto (-10%)</p> <br>

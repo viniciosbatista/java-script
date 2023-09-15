@@ -13,6 +13,9 @@ input{
     padding: 10px;
     margin: 20px;
 }
+#res{
+    padding: 10px;
+}
 input:hover{
     background-color: red;
     border: 1px solid;

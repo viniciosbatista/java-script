@@ -13,13 +13,13 @@
 
 
     <script>
-        var botao = document.getElementById('bt')
-        var resultado = document.getElementById('res')
+        let botao = document.getElementById('bt')
+        let resultado = document.getElementById('res')
         botao.addEventListener('click',clicou)
         function clicou(){
-            var valor = Number(prompt('digite uma temperatura em °C (Celsius)'))
-            var kelvin = Number(valor + 273.15)
-            var fahrenheit =Number(valor * 1.8) + 32
+            let valor = Number(prompt('digite uma temperatura em °C (Celsius)'))
+            let kelvin = Number(valor + 273.15)
+            let fahrenheit =Number(valor * 1.8) + 32
                 resultado.innerHTML = `<h2> A temperatura de ${valor.toFixed(1).replace('.',',')}°C, corresponde a...</h2> <br>
                 ${kelvin.toFixed(2).replace('.',',')}°K (kelvin) <br>
                 <br>

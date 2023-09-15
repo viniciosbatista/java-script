@@ -8,13 +8,19 @@
 }
 h1{
     text-align: center;
+    padding-top: 10px; 
 }
 
 input{
     padding: 10px;
     margin: 10px;
+
+}
+#res{
+    padding: 10px;
 }
 input:hover{
     background-color: red;
     border: 1px solid;
+    
 }

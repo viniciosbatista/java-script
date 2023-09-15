@@ -16,13 +16,13 @@
 
 
     <script>
-        var botao = document.getElementById('bt')
+        let botao = document.getElementById('bt')
         botao.addEventListener('click',clicou)
             function clicou(){
-                var produto = prompt('qual produto voce esta comprando ?')
-                var valor = Number(prompt(`qual e o valor do ${produto} que voce esta comprando`))
-                var dinheiro = Number(prompt(`qual foi o valor que voce deu para comprar o ${produto}`))
-                var troco = Number(dinheiro - valor)
+                let produto = prompt('qual produto voce esta comprando ?')
+                let valor = Number(prompt(`qual e o valor do ${produto} que voce esta comprando`))
+                let dinheiro = Number(prompt(`qual foi o valor que voce deu para comprar o ${produto}`))
+                let troco = Number(dinheiro - valor)
                 alert(`voce comprou ${produto} que custa R$ ${valor}.\n deu R$ ${dinheiro} em dinheiro e vai receber R$ ${troco} de troco.\n volte sempre  `)
             }
     </script>

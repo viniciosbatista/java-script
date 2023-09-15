@@ -1,9 +1,13 @@
+let tx = document.getElementById('texto')
+let img = document.getElementById('imagen')
+let hora = new Date()
+let atual = hora.getHours()
+let minutos = new Date()
+let atualm = minutos.getMinutes()
+
 function carregar(){
-    var tx = document.getElementById('texto')
-    var img = document.getElementById('imagen')
-    var hora = new Date()
-    var atual = hora.getHours()
-    tx.innerHTML = `agora sao ${atual} horas`
+    
+    tx.innerHTML = `agora sao ${atual}:${atualm}`
     if (atual >=0 && atual < 12){
         img.src = 'imagens/dia.jpg'
         document.body.style.backgroundColor = '#FFC737'

@@ -13,16 +13,16 @@
 
 
     <script>
-        var botao = document.getElementById('bt')
+        let botao = document.getElementById('bt')
         botao.addEventListener('click',clicou)
-        var resultado = document.getElementById('res')
+        let resultado = document.getElementById('res')
             function clicou(){
-                var anterior = Number(prompt('qual era o preço anterior do produto'))
-                var atual = Number(prompt('qual e o preço atual do produto'))
-                var varia = Number(atual-anterior)/anterior*100
-                var variabaixo = Number(anterior-atual)/atual*100
-                var maior = Number(atual-anterior)
-                var menor = Number(anterior - atual)
+                let anterior = Number(prompt('qual era o preço anterior do produto'))
+                let atual = Number(prompt('qual e o preço atual do produto'))
+                let varia = Number(atual-anterior)/anterior*100
+                let variabaixo = Number(anterior-atual)/atual*100
+                let maior = Number(atual-anterior)
+                let menor = Number(anterior-atual)
                 resultado.innerHTML = `<h2>Analisando os valores informados</h2>
                 <p>o produto custava R$ ${anterior.toFixed(2).replace(".",",")} e agora custa R$ ${atual.toFixed(2).replace(".",",")}</p>
         `

@@ -12,12 +12,12 @@
 
 
     <script>
-        var botao = document.getElementById('bt')
+        let botao = document.getElementById('bt')
         botao.addEventListener('click',clicou)
             function clicou(){
-                var antes = Number(prompt('digite um numero interio qualquer!'))
-                var a = Number(antes - 1) 
-                var d = Number(antes + 1)
+                let antes = Number(prompt('digite um numero interio qualquer!'))
+                let a = Number(antes - 1) 
+                let d = Number(antes + 1)
                 alert(`antes de ${antes}, temos o numero ${a} depois de ${antes}, temos o numero ${d}`)
         
             }

@@ -12,10 +12,12 @@
     </header>
     <section id="td">
         <section>
-            <p><label for="ano">Ano de nascimento:</label><input type="number" id="ano" name="ano" required min="1"></p>
             <p>
-                <input type="radio" name="sex" id="mas" checked><label for="mas"> Masculino</label>
-                <input type="radio" name="sex" id="fem"><label for="fem"> Feminino</label>
+                <label for="ano">Ano de nascimento:</label><input id="ano" type="number" name="ano" required>
+            </p>
+            <p>
+                <input type="radio" name="sexo" id="mas" checked><label for="mas"> Masculino</label>
+                <input type="radio" name="sexo" id="fem"><label for="fem"> Feminino</label>
             </p>
             <p>
                 <input type="button" value="Verificar" id="bt">
@@ -23,6 +25,7 @@
         </section>
         <section id="res">
             Preencha os dados a cima para ver o resultado
+            <img id="img" src="imagens/bebemenina.jpg" alt="foto-das-pessoas ">
         </section>
     </section>
 

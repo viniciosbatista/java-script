@@ -4,14 +4,21 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
 }
-input{
-    padding: 10px;
-    margin-top: 20px;
-    cursor: pointer;
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
-input:hover{
+h1{
+    padding: 20px;
+}
+button{
+    padding: 15px;
+    border-radius: 10px;
+}
+button:hover{
     background-color: red;
-    border: 1px solid ;
 }

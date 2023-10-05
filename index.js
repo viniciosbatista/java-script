@@ -61,3 +61,23 @@
 //     console.log(`passo ${c}`)
 // }
 // console.log('fim')
+// let num = [100,10,1,]
+// for(let pos in num){
+//     console.log(`a posiçao ${pos} tem o valor de ${num[pos]}`) geito mais simples de mostrar os valores da array
+
+// for(let pos = 0;pos < num.length; pos++){
+//     num.sort()
+//     console.log(num[pos])
+
+// num[3]=6 vai adicionar o 6 ao indice 3
+// num.push(7) vai adicionar mais um elemento a o array
+// num.sort() vai deixar em ordem crescente 
+// console.log(num.length) vai mostrar o comprimento da array
+// console.log(num[0]) vai mostrar o valor da array no indice 0 que seria o numero 100
+// let pos = [0,1,2,4]
+// let num = pos.indexOf(14) PARA ENCONTRA UM VALOR NA array
+// if (num == -1){ SE RETORNAR -1 QUER DISER QUE O VALOR NAO FOI EMCONTRADO
+//     console.log('o valor nao foi encontrado')
+// }else{
+//     console.log(`o valor esta na posiçao ${num}`)
+// }

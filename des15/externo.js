@@ -46,7 +46,7 @@ let resultado = document.getElementById('res')
                         img.setAttribute('src','imagens/idosa.jpg')
                     }
                 }
-                resultado.innerHTML=`detectamos ${genero} com ${idade}`
+                resultado.innerHTML=`detectamos ${genero} com ${idade} anos`
                 resultado.appendChild(img)
         }
        

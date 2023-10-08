@@ -83,4 +83,4 @@
 // }
 let num = [0,2,3,4]
 // num.reverse() vai deixar a array do maior para o menor 
-console.log(Math.random(0,2,3,4))
+// console.log(Math.random(0,2,3,4))

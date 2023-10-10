@@ -81,6 +81,10 @@
 // }else{
 //     console.log(`o valor esta na posiçao ${num}`)
 // }
-let num = [0,2,3,4]
+// let num = [0,2,3,4]
 // num.reverse() vai deixar a array do maior para o menor 
 // console.log(Math.random(0,2,3,4))
+// console.log(Math.max(19,20,10,3,5)) vai mostrar o maior numero da lista 
+// console.log(Math.min(10,20,1,3)) vai mostrar o menor numero da lista
+// console.log(Math.floor(5.14)) vai arredondar o numero para baixo 5
+// console.log(Math.ceil(5.14)) vai arredondar o numero para cima 6

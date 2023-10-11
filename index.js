@@ -88,3 +88,24 @@
 // console.log(Math.min(10,20,1,3)) vai mostrar o menor numero da lista
 // console.log(Math.floor(5.14)) vai arredondar o numero para baixo 5
 // console.log(Math.ceil(5.14)) vai arredondar o numero para cima 6
+// for(let t = 0; t < 10;t++){  incremento soma mais um 1 2 3 ....
+//     console.log(`repetindo ${t}`) 
+// }
+// for(let t = 10;t>0;t--){ decremento tira um 10 9 8...
+//     console.log(`repetindo ${t}`)
+// }
+// for(let g = 20 ;g>10;g--){
+//     console.log(`o valor de g e:${g}`)
+
+//         if (g === 15){
+//             console.log(`o g e 15`)
+//             break
+//         }
+// }
+for(let s = 0; s < 10; s = s + 1){
+    if (s % 2 ===0){
+        console.log("numero par!");
+        continue;
+    }
+    console.log(s);
+}

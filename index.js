@@ -37,3 +37,23 @@
 // let g = (f -32) * 5 / 9;
 
 // console.log(`${g.toFixed(2)} °c`)
+
+// DESAFIO 5
+// let a = 10;
+// let b = 11;
+// encontre 5 expressões que seja falsa
+// console.log(a > b);
+// console.log(a == b);
+// console.log(a === b);
+// console.log(a >= b );
+// console.log(a + a === b );
+
+// encontre 5 expressões que seja verdadeiras
+// console.log(a < b);
+// console.log(a <= b);
+// console.log(a != b);
+// console.log(a !== b );
+// console.log(a + a > b);
+
+
+

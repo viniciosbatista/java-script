@@ -64,3 +64,14 @@
 // texto += '\n 4. Rebeca França'
 // console.log(texto);
 
+// DESAFIO 7
+// let verdadeira1 = 2 + 5 >= 7 && 8 > 2; 
+// let verdadeira2 = 3 + 7 <= 11 || 8 < 7;
+// console.log(verdadeira1);
+// console.log(verdadeira2);
+
+// let falso1 = 1 - 1 == 2 || 10 > 11;
+// let falso2 = 10 - 9 === 0 && 10 > 90;
+// console.log(falso1)
+// console.log(falso2)
+

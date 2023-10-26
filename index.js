@@ -75,3 +75,9 @@
 // console.log(falso1)
 // console.log(falso2)
 
+// DESAFIO 8
+// const a = 8;
+// const b = 4;
+// let ope = "+";  + - * / 
+// const resultado = ope === "+" ? a + b : ope === "-" ? a - b : ope === "*" ? a * b : a / b;
+// console.log(resultado) 

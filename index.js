@@ -81,3 +81,4 @@
 // let ope = "+";  + - * / 
 // const resultado = ope === "+" ? a + b : ope === "-" ? a - b : ope === "*" ? a * b : a / b;
 // console.log(resultado) 
+

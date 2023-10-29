@@ -82,3 +82,20 @@
 // const resultado = ope === "+" ? a + b : ope === "-" ? a - b : ope === "*" ? a * b : a / b;
 // console.log(resultado) 
 
+// DESAFIO 9
+// const nota = 9
+// if (nota >= 9){
+//     console.log('quadro de honras')
+//     console.log('parabens')
+// }
+// console.log('fim')
+
+// DESAFIO 10
+const nota = 10
+if (nota >=9){
+    console.log('A')
+}
+if(nota >= 7 || nota <= 8,9){
+    console.log('B')
+}
+

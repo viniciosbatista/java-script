@@ -109,3 +109,27 @@
 // }
 
 // DESAFIO 11
+const a = 10;
+const b = 28;
+let operaçao = '%'; // + - / % 
+let resultado;
+
+if (operaçao == '*'){
+    resultado = a * b
+
+}else if (operaçao == '+'){
+    resultado = a + b
+
+}else if (operaçao == '-'){
+    resultado = a - b
+
+}else if (operaçao == '/'){
+    resultado = a / b
+
+}else if (operaçao == '%'){
+    resultado = a % b
+
+} else {
+    console.log('operaçao errada [ERRO]')
+}
+console.log(resultado);

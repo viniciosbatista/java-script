@@ -1,0 +1,16 @@
+cltrl + b recolhe ou mostra barra lateral
+
+shift + ceta/baixo seceliona varias linhas 
+
+ctrl + : comenta no js 
+
+ctrl + c copia a linha de codigo 
+
+cltrl + x recorta a linha de codigo 
+
+cltrl + V cola a linha de codigo copiada ou recortada
+
+f8 executa o nodejs usando a extençao node executa
+
+f9 pausa a execuçao do nodejs 
+

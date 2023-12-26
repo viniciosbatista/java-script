@@ -1,0 +1,3 @@
+java script e usado para programar o comportamento das paginas web 
+
+
